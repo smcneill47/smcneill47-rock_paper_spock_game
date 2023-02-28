@@ -1,25 +1,22 @@
-// Returns a random number in the range of 1-5 for our computers chouce//
 function getComputerChoice() {
-    return Math.floor((Math.random() * 5) + 1)
+    return Math.floor((Math.random() * 5) + 1);
 }
-// sets variables for each of the users options 1-5// 
-const ROCK='ROCK';
-const SCISSORS="SCISSORS";
-const PAPER="PAPER";
-const SPOCK="SPOCK";
-const LIZARD="LIZARD";
-const OPTIONS= {
+
+const ROCK = 'ROCK';
+const SCISSORS = 'SCISSORS';
+const PAPER = 'PAPER';
+const SPOCK = 'SPOCK';
+const LIZARD = 'LIZARD';
+const OPTIONS = {
     1: ROCK,
     2: SCISSORS,
     3: PAPER,
-    4: SPOCK, 
-    5: LIZARD 
+    4: SPOCK,
+    5: LIZARD
 };
 
-//stores user input//
-let userChoiceID='';
+let userChoiceID = '';
 
-//event listener for when the page is loaded//
 window.onload = () => {
     const userOptions = document.querySelectorAll('.user-option');
 
@@ -70,7 +67,7 @@ window.onload = () => {
             case `${SPOCK}-${LIZARD}`:
             case `${LIZARD}-${ROCK}`:
             case `${LIZARD}-${SCISSORS}`:
-                result = 'YOU WIN ☺️🥇 🤖💔'
+                result = 'YOU WIN'
                 break;
             default:
                 result = 'SOMETHING WRONG. TRY AGAIN.'
