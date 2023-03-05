@@ -1,9 +1,11 @@
 .decision {
     text-align: center;
-    font-size: 700px;
+    color: red;
+    display: inline-block;
 }
 
-.user-option {
+div {
     text-align: center;
-    font-size: 150px;
+    color: white;
+    display: inline-block;
 }
