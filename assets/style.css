@@ -5,10 +5,15 @@ body {
     margin: auto;
 }
 
+header {
+    color: red;
+}
+
 .decision {
     text-align: center;
     color: red;
     display: inline-block;
+    font-size: 40px;
 }
 
 div {
@@ -18,9 +23,10 @@ div {
     border: 3px solid rgb(189, 189, 189);
     border-radius: 2px;
     border-spacing: 3px;
-    padding: 15px;
     background-color:rgba(153, 0, 255, 0.534);
-    padding-left: 25%;
+    padding: 10px;
+    font-size: 20px;
+
 }
 
 span {
@@ -28,3 +34,4 @@ span {
     text-align: justify;
     font-family: Rubik, open-sans, sans-serif;
 }
+
