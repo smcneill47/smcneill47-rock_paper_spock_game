@@ -56,7 +56,13 @@ h1 {
     background-color:rgba(153, 0, 255, 0.534);
 }
 
-/**Provides a smaller style for respomsive design on devices beneath 550px*/
+#play:hover{
+    border-color: yellow;
+    border-radius: 3px;
+}
+
+
+/**Provides a smaller style for responsive design on devices beneath 550px*/
 
 @media only screen and (max-width: 550px){
 
