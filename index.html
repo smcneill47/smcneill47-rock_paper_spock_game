@@ -7,7 +7,7 @@
     <title>Rock, Paper, Scissors, Spock Lizard Game</title>
   </head>
 
-  <body background="assets/starry_night_background.jpg" background-repeat="no-repeat" background-size="cover">
+  <body background="assets/starry_night_background.jpg" background-repeat="no-repeat" background-size="cover" aria-label="background image of a starry night">
 
     <!--This section defines the 5 options users can select to play the game-->
 
@@ -17,6 +17,7 @@
 
     <span class="decision">YOUR CHOICE</span>
     <br>
+    <!--Radio buttons for each option created-->
     <div id="user-options">
         <div>
             <input type="radio" id="1" name="option" class="user-option">
@@ -41,6 +42,7 @@
         </div>
     </div>
     <br>
+    <!--Span created for the computers decision-->
     <span class="decision">COMPUTER CHOICE</span>
     <br>
     <div id="computer-choice"></div>
@@ -51,6 +53,7 @@
     <br>
     <span class="decision">Result</span>
     <br>
+    <!--Output created to print the result of the game-->
     <div id="output"></div>
 
     <script type="text/javascript" src="./index.js"></script>

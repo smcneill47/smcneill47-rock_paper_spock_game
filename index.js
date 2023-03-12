@@ -1,7 +1,9 @@
+//Adds a function which returns a number in the range of 1-5 for the computer choice//
 function getComputerChoice() {
     return Math.floor((Math.random() * 5) + 1);
 }
 
+//Addss the constant variables which will be used in the game//
 const ROCK = 'ROCK';
 const SCISSORS = 'SCISSORS';
 const PAPER = 'PAPER';
@@ -14,16 +16,17 @@ const OPTIONS = {
     4: SPOCK,
     5: LIZARD
 };
-
+//Variable stores the users input//
 let userChoiceID = '';
 
+//Event listener created for when the user opens the site, event begins when user clicks option//
 window.onload = () => {
     const userOptions = document.querySelectorAll('.user-option');
-
+//Event listener which handles user input//
     userOptions.forEach(el => el.addEventListener('click', event => {
         userChoiceID = event.target.id;
     }));
-
+//Event listener added to the play button along with its variables. This is used to determine the result//
     const playButton = document.querySelector('#play');
 
     playButton.addEventListener('click', () => {
@@ -34,9 +37,9 @@ window.onload = () => {
         const userChoice = OPTIONS[userChoiceID];
 
         let result = '';
-
+//Adds the variables associated with the computers choice//
         computerChoiceElement.innerHTML = OPTIONS[computerChoiceID];
-
+//Switch created to use what determines the winner of the game. Logic for the game created below//
         switch (`${computerChoice}-${userChoice}`) {
             case `${ROCK}-${ROCK}`:
             case `${SCISSORS}-${SCISSORS}`:
@@ -72,7 +75,7 @@ window.onload = () => {
             default:
                 result = 'SOMETHING WRONG. TRY AGAIN.'
         }
-
+//Outputs the result on screen to show user the result of the game//
         output.innerHTML = result;
     })
 }
