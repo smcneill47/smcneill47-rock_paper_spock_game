@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gajraj+One&display=swap');
 
 body {
     width: 50%;
@@ -26,6 +26,8 @@ div {
     background-color:rgba(153, 0, 255, 0.534);
     padding: 10px;
     font-size: 20px;
+    font-family: Gajraj One, sans-serif, open-sans;
+    color: yellow;
 
 }
 
@@ -33,5 +35,17 @@ span {
     text-align: center;
     text-align: justify;
     font-family: Rubik, open-sans, sans-serif;
+    font-family: Bebas Neue, sans-serif, open-sans;
 }
+
+h1 {
+    font-family: Bebas Neue, open-sans, sans-serif;
+    text-align: justify;
+}
+
+#user-options {
+    border: none;
+    background-color: none;
+}
+
 
