@@ -102,6 +102,12 @@ https://www.w3schools.com/js/js_htmldom_eventlistener.asp
 
 https://www.w3schools.com/jsref/event_onload.asp
 
+https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
+
+
+
 
 
 
