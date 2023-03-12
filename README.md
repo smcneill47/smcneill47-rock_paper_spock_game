@@ -51,6 +51,61 @@ Used JS Lint in order to assess any errors with the JavaScript code. 6 errors we
 
 ![image](https://user-images.githubusercontent.com/118195140/224565062-4fb0b84b-f8cd-47ba-aa81-fd1516b5a1a4.png)
 
+# Possible Future Fearures 
+* A scoreboard to track how many games a user/ computer has won. 
+* Audio added to play when the user has won/ lost.
+* Animations could be added when Rock beats paper, Spock vaporises Rock etc. 
+* A best of 3 or a best of 5 system which determines the victor. 
+
+# Resources 
+https://www.w3schools.com/css/css_font.asp
+
+https://fonts.google.com/specimen/Gajraj+One
+
+https://stackoverflow.com/questions/8739665/is-background-colornone-valid-css
+
+https://www.w3schools.com/css/css_align.asp#:~:text=Center%20Align%20Elements,the%20edges%20of%20its%20container.
+
+https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/
+
+https://www.w3schools.com/howto/howto_css_center_button.asp
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_center-flex_btn
+
+https://ui.dev/amiresponsive?url=https://smcneill47.github.io/smcneill47-rock_paper_spock_game/
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+https://www.markdownguide.org/basic-syntax/
+
+https://github.com/mushanshitiancai/vscode-paste-image/blob/master/README.md
+
+https://validator.w3.org/nu/#textarea
+
+https://www.w3schools.com/cssref/pr_background-image.php
+
+https://jigsaw.w3.org/css-validator/validator
+
+https://beautifytools.com/javascript-validator.php
+
+https://www.jslint.com/
+
+https://stackoverflow.com/questions/47483685/jslint-was-unable-to-finish-16-4expected-an-identifier-and-instead-saw
+
+https://wordpress.com/support/markdown-quick-reference/
+
+https://www.w3schools.com/js/js_switch.asp
+
+https://www.programiz.com/javascript/switch-statement
+
+https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+
+https://www.w3schools.com/jsref/event_onload.asp
+
+
+
+
+
 
 
 
