@@ -12,14 +12,15 @@ header {
 .decision {
     text-align: center;
     color: red;
-    display: inline-block;
+    display: block;
     font-size: 40px;
 }
 
 div {
-    color: white;
-    display: inline-block;
-    width: 50%;
+    display: block;
+    width: 75%;
+    padding-left: 50%;
+    margin: auto;
     border: 3px solid rgb(189, 189, 189);
     border-radius: 2px;
     border-spacing: 3px;
@@ -34,18 +35,61 @@ div {
 span {
     text-align: center;
     text-align: justify;
-    font-family: Rubik, open-sans, sans-serif;
     font-family: Bebas Neue, sans-serif, open-sans;
 }
 
 h1 {
     font-family: Bebas Neue, open-sans, sans-serif;
-    text-align: justify;
+    text-align: center;
 }
 
 #user-options {
     border: none;
-    background-color: none;
+    background-color: transparent;
 }
 
+#play {
+    font-family: Bebas Neue, open-sans, sans-serif;
+    font-size: 40px;
+    color: yellow;
+    background-color:rgba(153, 0, 255, 0.534);
+}
+
+@media only screen and (max-width: 550px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .decision {
+        font-size: 30px;
+    }
+
+    #play {
+        font-size: 30px;
+    }
+
+    div {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .decision {
+        font-size: 20px;
+    }
+
+    #play {
+        font-size: 20px;
+    }
+
+    div {
+        font-size: 10px;
+    }
+
+}
 
